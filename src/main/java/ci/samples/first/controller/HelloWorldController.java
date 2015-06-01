@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloWorldController {
 
 
-    private static final String RESPONSE = "Hello World!!!!";
+    private static final String RESPONSE = "Hello World For Pipelining...";
 
     @RequestMapping(value = {"/**/*","/"}, method = RequestMethod.GET)
     @ResponseBody
