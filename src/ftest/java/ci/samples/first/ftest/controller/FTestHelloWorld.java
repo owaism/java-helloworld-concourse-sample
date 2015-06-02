@@ -21,7 +21,7 @@ public class FTestHelloWorld {
         Client client = ClientBuilder.newClient();
         WebTarget target = client.target(ftesturi);
         String response = target.path("/hello-world").request().get(String.class);
-        Assert.assertEquals("Hello World!!!!", response);
+        Assert.assertEquals("Hello World For Pipelining...", response);
 
     }
 }
